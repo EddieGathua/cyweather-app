@@ -139,15 +139,14 @@ h1 {
     background-size: cover;
     overflow-x: visible;
   }
-  .container {
-    width: 100%;
-    height: auto;
-    margin: auto;
-    padding: 0 1rem;
-    position: relative;
+  .bottom {
+    text-align: center;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.185);
     display: grid;
-    flex-direction: column;
-    justify-content: space-between;
-    overflow: auto;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1rem;
   }
 }
