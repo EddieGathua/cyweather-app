@@ -131,7 +131,7 @@ h1 {
     overflow: auto;
   }
 }
-@media only screen and (max-width: 425px) and (min-width: 375px) {
+@media only screen and (max-width: 425px) {
   .app {
     background-image: url("./assets/sunset.jpg");
     background-position: center;
@@ -145,7 +145,7 @@ h1 {
     margin: auto;
     padding: 0 1rem;
     position: relative;
-    display: flex;
+    display: grid;
     flex-direction: column;
     justify-content: space-between;
     overflow: auto;
