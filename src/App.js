@@ -39,6 +39,7 @@ function App() {
             onChange={(event) => setLatitude(event.target.value)}
             placeholder="Enter Latitude"
             type="number"
+            step={any}
           />
         </div>
         <div className="enter">
@@ -47,6 +48,7 @@ function App() {
             onChange={(event) => setLongitude(event.target.value)}
             placeholder="Enter Longitude"
             type="number"
+            step={any}
           />
         </div>
         <div className="enter">
