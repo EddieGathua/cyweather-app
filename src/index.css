@@ -91,3 +91,62 @@ h1 {
   font-weight: 700;
   color: rgb(47, 61, 100);
 }
+
+/* Media Queries */
+@media only screen and (max-width: 1200px) {
+  .app {
+    background-image: url("./assets/sunset.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 0 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .app {
+    background-image: url("./assets/sunset.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 0 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .app {
+    background-image: url("./assets/sunset.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 0 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+  }
+}
