@@ -62,7 +62,7 @@ function App() {
               <div className="bottom">
                 <div className="time">
                   <p className="bold">Time</p>
-                  <p>{data.hourly.time[timeIndex].slice(12)}</p>
+                  <p>{data.hourly.time[timeIndex].slice(11)}</p>
                 </div>
                 <div className="temp">
                   <p className="bold">Temperature</p>

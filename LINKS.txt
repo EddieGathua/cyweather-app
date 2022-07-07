@@ -1,0 +1,5 @@
+Below are the links to the deployed weather app using Heroku and the Github repository
+
+URL : https://cyweather-app.herokuapp.com/
+
+GITHUB : https://github.com/EddieGathua/cyweather-app
